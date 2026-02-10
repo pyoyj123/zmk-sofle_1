@@ -86,11 +86,11 @@
 &kp BACKSPACE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &kp UP_ARROW    &trans            &mmv MOVE_DOWN   &kp HOME           &kp END  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp INS
 &kp ENTER      &trans        &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp DOWN_ARROW    &mmv MOVE_LEFT   &kp PAGE_UP        &trans   &trans  &trans            &kp UP_ARROW       &kp APOS
 &trans         &trans        &trans        &trans          &trans          &trans            &mmv MOVE_RIGHT  &kp PAGE_DOWN      &trans   &trans  &kp LEFT_ARROW    &kp DOWN_ARROW     &kp RIGHT_ARROW
-&kp C_MUTE     &trans        &trans        &trans          &trans          &trans            &mkp LCLK        &kp RIGHT_CONTROL  &trans   &trans  &trans            &trans
+&kp C_MUTE     &trans        &trans        &trans          &trans          &trans            &mkp LCLK        &kp RIGHT_CONTROL  &trans   &trans  &trans            &trans             &trans
             >;
 
-            display-name = "layer1";
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            display-name = "layer1";
         };
 
         layer_2 {
@@ -99,11 +99,11 @@
 &trans   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &trans  &trans          &trans          &kp DEL
 &trans   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &trans  &trans          &kp UP_ARROW    &kp APOS
 &trans   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&trans   &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans  &trans  &trans          &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans  &trans  &trans          &trans          &trans
             >;
 
-            display-name = "layer2";
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            display-name = "layer2";
         };
 
         layer_3 {
